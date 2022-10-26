@@ -1,0 +1,26 @@
+{
+  "name": "stack",
+  "version": "1.0.0",
+  "description": "Three.js game",
+  "main": "index.html",
+  "repository": "git@github.com:KonradLinkowski/Stack.git",
+  "author": "Konrad Linkowski",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/three": "^0.144.0",
+    "typescript": "^4.2.4",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "three": "^0.145.0"
+  },
+  "staticFiles": {
+    "staticPath": "src/images"
+  }
+}
